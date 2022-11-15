@@ -116,5 +116,29 @@ button:hover {
   margin: 5px;
 }
 
-/* == Partie Data == */
+/* == Tir Laser == */
+.laser {
+  width: 5%;
+  position: absolute;
+  -webkit-animation: tir 0.2s linear 0s normal;
+          animation: tir 0.2s linear 0s normal;
+}
+
+@-webkit-keyframes tir {
+  from {
+    transform-origin: translateY(100%);
+  }
+  to {
+    transform: translateY(-300px);
+  }
+}
+
+@keyframes tir {
+  from {
+    transform-origin: translateY(100%);
+  }
+  to {
+    transform: translateY(-300px);
+  }
+}
 /* === FOOTER === *//*# sourceMappingURL=styles.css.map */

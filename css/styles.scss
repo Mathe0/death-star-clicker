@@ -131,8 +131,22 @@ button:hover{
     }
 }
 
-/* == Partie Data == */
+/* == Tir Laser == */
 
+.laser{
+    width: 5%;
+    position: absolute;
+    animation : tir 0.2s linear 0s normal;
+}
+
+@keyframes tir {
+    from{
+        transform-origin: translateY(100%);
+    }
+    to {
+        transform: translateY(-300px);
+    }
+}
 /* === FOOTER === */
 
 
