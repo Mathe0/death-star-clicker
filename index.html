@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr=">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Coockie Clicker Mathéo Clavel</title>
+    <meta name="Description" content="Description de la page">
+
+    <!-- Test -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
+
+
+</head>
+<header>
+
+<body id="top-image">
+<script src="jquery/jquery-3.6.1.min.js"></script>
+
+<section class="container premiere-partie">
+    <div class="hero">
+        <h1>vous incarnez la Rébellion</h1>
+        <h2>cliquez pour tirer sur l'étoile de la mort</h2>
+            <h2 id="result">0</h2>
+            <img id="planet" src="images/etoiledelamort.gif" id="cookie" />
+    </div>
+</section>
+<section>
+    <div class="container flex-container">
+        <div class="bonus">
+            <button id="autoclick" onclick="autoclique()">Autoclique</button>
+            <p id="nombre_autoclique">vous avez 0 Autoclique</p>
+            <p id="cout_autoclique">L'autoclique coûte 10</p>
+        </div>
+        <div class="bonus">
+            <button id="autoclick" onclick="multiplicateur()">Multiplicateur</button>
+            <p id="nombre_multiplicateur">vous avez 0 multpicliateur</p>
+            <p id="cout_multiplicateur">Le multiplicateur coûte 5</p>
+        </div>
+</section>
+<section class="flex-container container partie-data">   
+    <button onclick="save()">Sauvegarder</button>
+    <button onclick="load()">Charger la sauvegarde</button>
+    <button onclick="supprimer()">Supprimer la sauvegarde</button>
+</section>
+
+    
+
+<script src="js/script.js"></script>
+</body>
+
+</html>
